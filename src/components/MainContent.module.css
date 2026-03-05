@@ -1,0 +1,41 @@
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f6f8;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.column {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.colTitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card {
+  background: #f0f2f5;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
