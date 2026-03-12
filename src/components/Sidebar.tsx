@@ -1,4 +1,6 @@
 import styles from "./Sidebar.module.css";
+import { NavLink } from 'react-router-dom';
+
 interface Project {
   id: string;
   name: string;
